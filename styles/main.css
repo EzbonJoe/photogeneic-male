@@ -58,7 +58,7 @@
 @media only screen and (max-width:412px){
     .grid{
         grid-template-columns: 170px 170px;
-        width: 85%;
+        width: 100%;
         margin: 0;
         padding: 0;
     }   
@@ -79,7 +79,7 @@
     }
 
     .image1{
-        width: 140px;
+        width: 180px;
         object-fit:cover;
     }
 
@@ -89,12 +89,12 @@
         width: 200px;
         margin-bottom: 1px;
         margin-right: 10px;
-        width: 70%;
+        width: 100%;
         align-items: center;
     }
 
     .header{
-        width: 80%;
+        width: 100%;
         padding: 10px;
     }
 
