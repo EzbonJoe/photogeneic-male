@@ -53,9 +53,14 @@
     }
 }
 
+/*mobile version*/
+
 @media only screen and (max-width:412px){
     .grid{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 170px 170px;
+        width: 85%;
+        margin: 0;
+        padding: 0;
     }   
     
     .left-section{
@@ -70,26 +75,40 @@
         color:brown;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight:bold;
-        font-size: 7px;
+        font-size: 9px;
     }
 
     .image1{
-        height: 280px;
-        width: 210px;
-        margin-right: 10px;
+        width: 140px;
         object-fit:cover;
     }
 
     .content-container{
         display:flex;
-        flex-direction: column;
         padding: 10px;
         width: 200px;
+        margin-bottom: 1px;
+        margin-right: 10px;
+        width: 70%;
+        align-items: center;
     }
 
     .header{
-        padding: 20px;
+        width: 80%;
+        padding: 10px;
     }
-}
 
+    .photogeneic-male-text{
+        font-size: 13px;
+    }
+
+    .image-container{
+        height: 100%;
+        width: 100%;
+        margin-bottom: 70px;
+        padding-right:5px;
+    }
+
+
+}
 
