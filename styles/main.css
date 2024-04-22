@@ -68,14 +68,14 @@
     }
     
     .man{
-        height: 9px;
+        height: 12px;
     }
 
     .color-cordination{
         color:brown;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight:bold;
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .image1{
@@ -94,12 +94,18 @@
     }
 
     .header{
+        border-bottom: 1px;
+        border-bottom-style: solid;
+        border-color: brown;
+        box-shadow: 0px 0px 0px rgba(0,0,0,0.25);
+        height: 40px;
         width: 100%;
         padding: 10px;
+        padding-bottom: 0;
     }
 
     .photogeneic-male-text{
-        font-size: 13px;
+        font-size: 17px;
     }
 
     .image-container{
