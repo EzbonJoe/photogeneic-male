@@ -29,6 +29,10 @@
     border-radius: 25px;
 }
 
+.burger-container{
+    display:none;
+}
+
 @media (max-width:1300px){
     .grid{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -57,7 +61,7 @@
 
 @media only screen and (max-width:412px){
     .grid{
-        grid-template-columns: 170px 170px;
+        grid-template-columns: 180px 180px;
         width: 100%;
         margin: 0;
         padding: 0;
@@ -72,6 +76,7 @@
     }
 
     .color-cordination{
+        display:none;
         color:brown;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight:bold;
@@ -79,6 +84,7 @@
     }
 
     .image1{
+        height: 270px;
         width: 180px;
         object-fit:cover;
     }
@@ -88,7 +94,7 @@
         padding: 10px;
         width: 200px;
         margin-bottom: 1px;
-        margin-right: 10px;
+        margin-right: 1px;
         width: 100%;
         align-items: center;
     }
@@ -111,8 +117,17 @@
     .image-container{
         height: 100%;
         width: 100%;
-        margin-bottom: 70px;
+        margin-bottom: 10px;
         padding-right:5px;
+    }
+
+    .burger-container{
+        display:block;
+    }
+
+    .burger-icon{
+        width: 30x;
+        height: 35px;;
     }
 
 
