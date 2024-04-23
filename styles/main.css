@@ -133,6 +133,7 @@
 
     .burger-container{
         display:block;
+        margin-right: 18px;
     }
 
     .burger-icon{
