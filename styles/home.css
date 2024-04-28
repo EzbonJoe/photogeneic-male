@@ -5,6 +5,11 @@ main{
     background-repeat: no-repeat;
     margin-bottom: 50px;
     padding-bottom: 30px;
+    width: 100%;
+}
+
+.wrapper-main{
+    width: 1000px;
 }
 
 .welcome-section{
@@ -178,8 +183,8 @@ main h1{
 
 @media only screen and (max-width: 412px){
     main{
-        width: 100%;
         margin-bottom: 20px;
+        width:100%;
     }
 
     main h1{
