@@ -1,0 +1,34 @@
+.footer-main{
+    width: 100%;
+    background-color: #141414;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 1.7rem;
+}
+
+.footer-sitemap {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-sitemap ul:nth-child(1){
+   border-left-style: solid;
+   border-left-width: 4px;
+   padding-left: 10px;
+   border-left-color: brown;
+   margin-right: 13px;
+}
+
+.footer-sitemap ul li{
+    list-style-type: none;
+    font-weight:500;
+    font-family: roboto;
+    color: white;
+    line-height: 28px;
+}
+
+.wrapper-main{
+    width: 1000px;
+    margin: 0 auto;
+}

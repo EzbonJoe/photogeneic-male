@@ -1,3 +1,7 @@
+:root{
+    font-size: 62.5%;
+}
+
 .grid{
     display:grid;
     grid-template-columns: 200px 200px 200px 200px 200px 200px;
@@ -49,11 +53,45 @@
     .grid{
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .photogeneic-male-text{
+        font-size: 2.2rem;
+    }
+
+    .man{
+        height: 11px;
+    }
+
+    .left-section nav ul li{
+        font-size: 1.7rem;    
+    }
+
+    .footer-main ul{
+        font-size: 1.4rem;
+    }
+    
 }
 
-@media (max-width:600px){
+@media (max-width:620px){
     .grid{
         grid-template-columns: 1fr 1fr ;
+    }
+
+    .photogeneic-male-text{
+        font-size: 1.7rem;
+    }
+
+    .man{
+        height: 11px;
+    }
+
+    .left-section nav ul li{
+      font-size: 1.4rem;
+    
+    }
+
+    .footer-main ul{
+        font-size: 1.2rem;
     }
 }
 
@@ -69,10 +107,14 @@
         width: 100%;
         margin: 0;
         padding: 0;
-    }   
+    }  
+    
+    .header nav{
+        display:none;
+    }
     
     .left-section{
-        font-size: 15px;
+        font-size: 1.5rem;
     }
     
     .man{
@@ -121,7 +163,7 @@
     }
 
     .photogeneic-male-text{
-        font-size: 17px;
+        font-size: 1.7rem;
     }
 
     .image-container{
@@ -138,9 +180,11 @@
 
     .burger-icon{
         width: 30x;
-        height: 35px;;
+        height: 35px;
     }
 
-
+    main{
+        width: 100%;
+    }
 }
 

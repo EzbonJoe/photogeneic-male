@@ -1,0 +1,256 @@
+main{
+    background-image: url(../background-images/istockphoto-1167050865-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+.welcome-section{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+main h1{
+    font-size: 8rem;
+    font-weight:bold;  
+    color:white;  
+    font-family: roboto;
+    text-transform: uppercase;
+}
+
+.poses-intro-container p{
+    color: rgb(243, 196, 196);  
+    font-size: 2.5rem;
+    font-weight: 600px;
+    width: 800px;
+    font-family: roboto;
+    border-left-style: solid;
+    border-left-color: brown;
+    border-left-width: 4px;
+    padding-left: 10px;
+}
+
+.poses-intro-container{
+    display: flex;
+    justify-content: center;
+}
+
+/* categories section */
+
+.categories{
+    display: flex;
+    justify-content:center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.categories p{
+   color: #111;
+   padding-bottom: 20px;
+   text-align:center;
+   flex-basis: 100%;
+   text-transform: uppercase;
+   font-size: 2.2rem;
+   font-family: roboto;
+}
+.male-model{
+    height: 100px;
+}
+
+.male-poses{
+    background-color: yellow;
+}
+
+.category-box{
+    position: relative;
+    height: 20rem;
+    width: 20rem;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 1.9rem;
+}
+
+.category-box:nth-child(2){
+    background-image: url(../category-images/male-poses.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.category-box:nth-child(3){
+    background-image: url(../category-images/color-combinations.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.category-box:nth-child(4){
+    background-image: url(../category-images/shoe-styling.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.category-box:nth-child(5){
+    background-image: url(../category-images/accesssories.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.category-box:nth-child(1){
+    background-image: url(../category-images/male-poses.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.category-box h3{
+    color: white;
+    font-family: roboto;
+    line-height: 28px;
+    text-align: center;
+    text-shadow: -2px 2px 4px black;
+    z-index: 100;
+}
+
+.dark-overlay{
+    position: absolute;
+    top:0;
+    bottom:0;
+    right: 0;
+    left:0;
+    background-color: #111;
+    opacity: 0.5;
+    transition: all ease-in-out 200ms;
+    border-radius: 10px;
+}
+
+.category-box:hover .dark-overlay{
+    opacity: 0;
+}
+
+/* footer section */
+
+.footer-main{
+    width: 100%;
+    background-color: #141414;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 1.7rem;
+}
+
+.footer-sitemap {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-sitemap ul:nth-child(1){
+   border-left-style: solid;
+   border-left-width: 4px;
+   padding-left: 10px;
+   border-left-color: brown;
+   margin-right: 13px;
+}
+
+.footer-sitemap ul li{
+    list-style-type: none;
+    font-weight:500;
+    font-family: roboto;
+    line-height: 28px;
+}
+
+.wrapper-main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 412px){
+    main{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    main h1{
+        font-size: 5rem;
+    }
+
+    .poses-intro-container p{
+        font-size: 2rem;
+        font-weight: 650px;
+        width: 80%;
+        
+    }
+
+    .categories{
+        display: flex;
+        justify-content:center;
+        column-gap: 50px;
+        row-gap: 10px;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+    .categories p{
+        padding-bottom: 10px;
+     }
+
+    .category-box{
+        width: 94%;
+        height: 160px;
+       
+    }
+
+    .footer-main{
+        width: 100%;
+        background-color: #141414;
+        padding-bottom: 60px;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 1.7rem;
+    }
+    
+    .footer-sitemap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+    
+    .footer-sitemap ul:nth-child(1),
+    .footer-sitemap ul:nth-child(2),
+    .footer-sitemap ul:nth-child(3),
+    .footer-sitemap ul:nth-child(4){
+       border-left-style: solid;
+       border-left-width: 3px;
+       border-color: brown;
+       padding-left: 5px;
+       margin-right: 19px;
+    }
+
+    .footer-sitemap ul li{
+        list-style-type: none;
+        font-weight:500;
+        font-family: roboto;
+        color: white;
+        line-height: 28px;
+    }
+
+    .footer-sitemap ul:nth-child(4){
+        text-align: center;
+    }
+    
+    .wrapper-main{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

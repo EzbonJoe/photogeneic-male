@@ -24,14 +24,35 @@ body {
 
 .left-section{
     display: flex;
-    align-items: center;    
+    align-items: center;   
+    flex-direction: row; 
 }
+
+.left-section nav ul{
+    display:flex;
+    flex-direction: row;
+}
+
+.left-section nav ul li{
+    font-size: 1.9rem;
+    margin-right: 20px;
+    list-style-type: none;
+    font-weight:bold;
+    font-family: roboto;
+    transition: all  ease-in-out 400ms;
+
+}
+
+.left-section nav ul li:hover {  
+    text-decoration:underline;
+}
+
 
 .photogeneic-male-text{
     color:brown;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight:bold;
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 .right-section{
@@ -39,15 +60,8 @@ body {
     align-items: center;
 }
 
-.color-cordination{
-    color:brown;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight:bold;
-    font-size: 15px;
-}
-
 .man{
-    height: 18px;
+    height: 1.8rem;
 }
 
 .model-image-container{
