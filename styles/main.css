@@ -98,9 +98,9 @@
 /*mobile version*/
 
 @media only screen and (max-width:412px){
-
     body{
         padding-top: 50px;
+        background-color: #fdd7d7;
     }
     .grid{
         grid-template-columns: 180px 180px;

@@ -5,11 +5,12 @@ main{
     background-repeat: no-repeat;
     margin-bottom: 50px;
     padding-bottom: 30px;
-    width: 100%;
+    width: 101.4%;
+    background-color: #141414;
 }
 
 .wrapper-main{
-    width: 1000px;
+    width: 1200px;
 }
 
 .welcome-section{
@@ -182,14 +183,30 @@ main h1{
 
 
 @media only screen and (max-width: 412px){
+    body{
+        margin:0;
+    }
+
+    header{
+        background-color: rgb(206, 145, 33);
+    }
+    
     main{
         margin-bottom: 20px;
-        width:100%;
+        width:105%;
+        background-color: #141414;
+        background-attachment: fixed;
+        
     }
 
     main h1{
         font-size: 5rem;
     }
+
+    .poses-intro-container {
+        width: 100%;        
+    }
+
 
     .poses-intro-container p{
         font-size: 2rem;
