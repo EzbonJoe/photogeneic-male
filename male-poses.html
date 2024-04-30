@@ -12,6 +12,18 @@
     <title>Poses</title>
 </head>
 <body>
+
+    <!--Burger menu start-->
+    <nav class="burger-menu js-burger-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="#">About</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="male-poses.html">Male poses</a></li>
+        </ul>
+    </nav>
+    <!--Burger menu stop-->
+
     <header class="header">
         <div class="left-section">
             <div class="model-image-container"><img src="images/profilepic.jpg" class="man"></div>
@@ -26,16 +38,11 @@
                 </ul>
             </nav>
         </div>
-        
-        <div clas="right-section">
-            
-        </div>
 
-            <div class="burger-container">
-                <img src="icons/menu.png" class="burger-icon">
-            </div>
-        </div>
+        <div class="burger-container js-burger-container"></div>
+
     </header>
+
 
     <main>
        <div class="grid js-grid"></div>
@@ -75,5 +82,6 @@
     </footer>     
 
     <script src="script/photos.js" type="module" ></script>
+    <script src="script/buttonControl.js"></script>
 </body>
 </html>
