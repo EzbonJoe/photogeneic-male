@@ -58,4 +58,10 @@ export const photos = [{
     image: 'images/image29.jpg'
 },{
     image: 'images/image30.jpg'
+},{
+    image: 'images/image31.jpg'
+},{
+    image: 'images/image32.jpg'
+},{
+    image: 'images/image33.jpg'
 }];
