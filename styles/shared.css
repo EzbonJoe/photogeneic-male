@@ -1,51 +1,16 @@
-.grid{
-    display:grid;
-    grid-template-columns: 200px 200px 200px 200px 200px 200px;
-    justify-content: space-between;
-    padding: 15px;
+:root{
+    font-size: 62.5%;
 }
 
-.image1{
-    height: 300px;
-    width: 210px;
-    margin-right: 10px;
-    object-fit:cover;
+.burger-container{
+    display:none;
 }
 
-.image-container{
-    height: 200px;
-    width: 200px;
-    margin-bottom: 100px;
-}
-.content-container{
-    display:flex;
-    flex-direction: column;
-    padding: 10px;
-    width: 200px;
-}
-
-.image1{
-    width: 100%;
-    border-radius: 25px;
-}
-
-
-@media (max-width:1300px){
-    .grid{
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-}
-
-@media (max-width:1200px){
-    .grid{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
+.burger-menu{
+    display: none;
 }
 
 @media (max-width:980px){
-    .grid{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
 
     .photogeneic-male-text{
         font-size: 2.2rem;
@@ -66,9 +31,6 @@
 }
 
 @media (max-width:620px){
-    .grid{
-        grid-template-columns: 1fr 1fr ;
-    }
 
     .photogeneic-male-text{
         font-size: 1.7rem;
@@ -88,18 +50,10 @@
     }
 }
 
-/*mobile version*/
-
 @media only screen and (max-width:412px){
     body{
         padding-top: 50px;
         background-color: #f5d7d7;
-    }
-    .grid{
-        grid-template-columns: 180px 180px;
-        width: 100%;
-        margin: 0;
-        padding: 0;
     }  
     
     .header nav{
@@ -112,22 +66,6 @@
     
     .man{
         height: 12px;
-    }
-
-    .image1{
-        height: 270px;
-        width: 180px;
-        object-fit:cover;
-    }
-
-    .content-container{
-        display:flex;
-        padding: 10px;
-        width: 200px;
-        margin-bottom: 1px;
-        margin-right: 1px;
-        width: 100%;
-        align-items: center;
     }
 
     .header{
@@ -151,12 +89,6 @@
         font-size: 1.7rem;
     }
 
-    .image-container{
-        height: 100%;
-        width: 100%;
-        margin-bottom: 10px;
-        padding-right:5px;
-    }
 
     .burger-icon{
         width: 30x;
@@ -221,6 +153,6 @@
         background-repeat: no-repeat;
         background-position: center, center left 50px;
     }   
+
+    
 }
-
-

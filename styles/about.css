@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(255, 245, 245);
+}
+
+main{
+    padding-left: 1.2rem;
+}
+
+main h1{
+    font-size: 8rem;
+    color: rgb(177, 32, 32);
+    text-align: center;
+    margin-top: 0;
+}
+
+main p{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.mission-container,
+.Team-container,
+.Future-container,
+.Founder-conatiner{
+    display: flex;
+    flex-direction: column;
+}
+
+.mission-text,
+.team-text,
+.future-text,
+.founder-text{
+    color: rgb(177, 32, 32);
+    font-size: 4.2rem;
+}
+
